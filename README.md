@@ -14,7 +14,12 @@ A classic arcade-style shooter game built in Python using Pygame.
 - Pygame
 
 ## How to Run
-1. Clone the repo:
+1. Create a virtual environment:
    ```bash
-   git clone https://github.com/KarinDeutsch/alien-invasion.git
-   cd alien-invasion
+   python -m venv .venv
+   source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+2. Install the dependencies:
+   pip install -r requirements.txt
+4. run the game
+   python alien_invasion.py
+
